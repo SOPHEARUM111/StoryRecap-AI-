@@ -1,4 +1,5 @@
-
+      - name: Generate Android and Web platforms
+        run: flutter create --project-name story_recap_ai --org com.example --platforms=android,web .
 name: Build StoryRecap AI
 
 on:
